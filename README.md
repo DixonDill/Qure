@@ -5,6 +5,25 @@
 ## 简介
 Qure 是一套专为 [Quantumult X](https://github.com/crossutility/Quantumult-X/) 内策略组而精心设计的图标组。在这里你可以订阅、下载并更新它们。<br>
 
+## 本仓库说明（合并版）
+
+- 本仓库由 DixonDill 的 `Qure` 与 `QuantumultX` 两个仓库合并而成，统一命名为 **Qure**，是唯一的图标仓库；`QuantumultX` 仓库已归档，不再更新。
+- 经逐文件比对，两仓库图标内容完全一致：`IconSet/` 共 592 个图标（含 `Dark/` 深色子目录），`Other/` 预览图亦相同，合并未丢失任何图标。`QuantumultX` 独有的 `icon` 文件仅含一个换行符，系误建文件，未并入。
+ 
+- 图标作者为 Koolson，本仓库为合并整理版。
+
+## 在 Loon 中使用
+
+本图标集现主要用于 **Loon**（同样适用于 Quantumult X）。在 Loon 配置文件的 `[Proxy Group]` 中，给策略组加上 `img-url` 参数，指向本仓库的图标即可：
+
+```
+香港节点 = url-test, 香港, img-url = https://raw.githubusercontent.com/DixonDill/Qure/master/IconSet/Hong_Kong.png
+Telegram = select, 香港节点, 日本节点, img-url = https://raw.githubusercontent.com/DixonDill/Qure/master/IconSet/Telegram.png
+```
+
+- 彩色图标在 `IconSet/` 下，深色图标在 `IconSet/Dark/` 下，文件名相同；
+- 图标名称中的空格以英文下划线 `_` 代替，并注意字母大小写。
+
 ## 使用说明
 ### 方式对比
 | 方式 | 添加图标 | 更新图标 | 图标维护 | 获取及时性 | 操作便利性 | 
